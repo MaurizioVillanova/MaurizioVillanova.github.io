@@ -308,6 +308,35 @@ h1{
   color: #fff;
 }
 
+.cvBtn {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.cvBtn a {
+  background-color: #00FF00; /* verde brillante */
+  color: #FFFFFF; 
+  border: none;
+  text-transform: uppercase;
+  display: inline-block; 
+  margin-top: 10px;
+  margin-right: auto; 
+  margin-left: auto; 
+}
+
+
+.cvBtn a:hover{
+  background-color: #00d646;
+  color: white;
+  border: none;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+  .cvBtn {
+      margin-top: 0 !important;
+  }
+}
 
 
 .logo {
